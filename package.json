@@ -1,0 +1,35 @@
+{
+  "name"        : "solder",
+  "description" : "Combines and minifies JavaScript and CSS at runtime and build time",
+  "version"     : "0.0.1",
+  "author"      : "Brett Stimmerman <brettstimmerman@gmail.com>",
+  "homepage"    : "http://github.com/brettstimmerman/solder",
+  "bugs"        : {
+    "mail" : "brettstimmerman@gmail.com",
+    "web"  : "http://github.com/brettstimmerman/solder/issues"
+  },
+
+  "bin"         : { "solder" : "./bin/solder.js" },
+  "engines"     : { "node" : ">=0.2.1" },
+  "main"        : "./lib/solder.js",
+
+  "dependencies": {
+    "express" : "=1.0.0rc2",
+    "glob"    : "=1.0.2",
+    "gzip"    : "=0.0.1",
+    "optparse": "=1.0.1",
+    "request" : "=0.10.0"
+  },
+
+  "repository" : {
+    "type" : "git",
+    "url"  : "http://github.com/brettstimmerman/solder.git"
+  },
+
+  "licences" : [
+    {
+      "type" : "MIT",
+      "url"  : "http://github.com/brettstimmerman/solder/raw/master/LICENSE"
+    }
+  ]
+}
