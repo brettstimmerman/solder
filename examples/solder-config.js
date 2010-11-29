@@ -30,16 +30,21 @@ exports.config = {
     }
   },
 
-  // Solder has built in support for YUI Compressor (CSS and JS) and Google
-  // Closure Compiler (JS only). You'll need to provide your own jars.
+  // Solder has built in support for YUI Compressor (CSS and JS), Google
+  // Closure Compiler (JS only) and SASS (CSS only). You'll need to provide your own jars.
   compressors: {
-    css: {
+    css: [{
+      name   : 'scss',
+      options: {
+        bin: '/usr/bin/sass'
+      }
+     },{
       name   : 'yui',
       options: {
-        jar: '/Users/brett/Library/Java/Extensions/yuicompressor.jar'
-      }
-    },
-
+         jar: '/Users/brett/Library/Java/Extensions/yuicompressor.jar'
+       }
+    }],
+    
     js: {
       name   : 'yui',
       options: {
