@@ -1,7 +1,7 @@
 {
   "name"        : "solder",
   "description" : "Combines and minifies JavaScript and CSS at runtime and build time",
-  "version"     : "0.0.2",
+  "version"     : "0.0.3",
   "author"      : "Brett Stimmerman <brettstimmerman@gmail.com>",
   "homepage"    : "http://github.com/brettstimmerman/solder",
   "bugs"        : {
