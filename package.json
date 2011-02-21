@@ -15,7 +15,7 @@
 
   "dependencies": {
     "express" : ">= 1.0.0rc2",
-    "glob"    : ">= 1.1.0",
+    "glob"    : ">= 2.0.2",
     "gzip"    : ">= 0.0.3",
     "optparse": ">= 1.0.1",
     "request" : ">= 0.10.0 <= 1.0.0"
